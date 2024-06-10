@@ -421,51 +421,6 @@ a:hover {
 @media screen and (max-width:450px) {
 
 
-    .sections-head{
-        display: none;
-    }
-
-
-    .contact .contact-item .form{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 20px;
-    }
-
-    .contact .contact-item .form .inp input{
-        padding: 10px;
-        height: 50px;
-        width: 300px;
-        color: rgb(0, 0, 0);
-        background-color: white;
-        border: none;
-        border-radius: 5px;
-    }
-    
-    
-    .contact-btn input{
-        background-color: #FF6300;
-        padding: 0 15px 0 15px;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        margin-top: 30px;
-        height: 50px;
-        margin-left: 0;
-    }
-    
-
-    .contact .logo h1 {
-        font-weight: bold;
-        font-family: 'gag';
-        letter-spacing: 3px;
-        margin-top: 100px;
-        margin-bottom: 50px;
-    
-    }
-    
 
     /* Home section */
 
@@ -478,10 +433,10 @@ a:hover {
     
     .home0 {
         height: calc(100vh - 10px); /* Adjusted for the total margin */
-        /* margin-top: 10px; */
+        margin-top: 55px;
         margin-bottom: 50px;
         /* padding-right: 55px; */
-        /* padding-left: 50px; */
+        padding-left: 40px;
         width: 100%;
         overflow-x: hidden; /* Ensures no horizontal scroll within the section */
     }
@@ -557,6 +512,60 @@ a:hover {
     }
 
     /*End  Home section */
+
+
+
+
+
+    /* contact section  */
+    
+    .sections-head{
+        display: none;
+    }
+
+
+    .contact .contact-item .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .contact .contact-item .form .inp input{
+        padding: 10px;
+        height: 50px;
+        width: 300px;
+        color: rgb(0, 0, 0);
+        background-color: white;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    
+    .contact-btn input{
+        background-color: #FF6300;
+        padding: 0 15px 0 15px;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin-top: 30px;
+        height: 50px;
+        margin-left: 0;
+    }
+    
+
+    .contact .logo h1 {
+        font-weight: bold;
+        font-family: 'gag';
+        letter-spacing: 3px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    
+    }
+
+/*End  contact section  */
+
 }
 
 
