@@ -1,0 +1,586 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: 'gag';
+    src: url(gagalin/Gagalin-Regular.otf);
+}
+body{
+    background-color: #000000;
+}
+
+/* header section style */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9999999999999999999999999999999999999999999999999999999999999999;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+.download {
+    background-color: #FF6300;
+    width: 150px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 32px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: 2s;
+}
+
+.side-logo {
+    margin-left: 32px;
+
+}
+
+.sidenav {
+    padding-top: 21px;
+}
+
+
+
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 999999999999999999999999999999999999999999999999999999;
+
+}
+
+
+nav .logo span {
+    font-weight: bold;
+    font-family: 'gag';
+    margin-right: 3px;
+}
+
+nav .logo h1 {
+    font-weight: bold;
+    font-family: 'gag';
+    letter-spacing: 3px;
+    padding-top: 8px;
+
+}
+
+nav .logo h1 {
+    color: white;
+}
+
+nav .logo span {
+    background-color: #FF6300;
+    padding: 0 15px 0 15px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.menu {
+    float: right;
+    display: none;
+    padding-top: 4.5px;
+
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    color: white;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+
+nav ul button {
+    padding-left: 18px;
+    padding-right: 18px;
+    color: white;
+    font-size: 25px;
+}
+
+nav ul button {
+    outline-style: none;
+    border: none;
+
+}
+
+
+
+nav ul li .butt {
+    background-color: #FF6300;
+    padding: 0 15px 0 15px;
+    margin-top: 5px;
+    color: white;
+    border-radius: 5px;
+    font-family: 'gag';
+}
+
+
+nav ul li,
+nav ul li button {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 7px 10px;
+    border-radius: 3px;
+    font-family: 'gag';
+
+}
+
+a.active,
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: #FF6300;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 3px;
+    color: rgb(222, 222, 222);
+}
+
+
+
+/* End header section style */
+
+
+
+
+/* Home section */
+
+
+.home {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.home .main-sec {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-sec .content .hi {
+    color: white;
+    font-size: 25px;
+    font-family: gag;
+}
+
+.main-sec .content h3 {
+    color: #FF6300;
+    font-family: 'gag';
+    font-size: 45px;
+}
+
+.main-sec .content .title {
+    position: relative;
+}
+
+.main-sec .content .title h1 {
+    color: white;
+    font-family: gag;
+    text-decoration: none;
+    font-size: 7em;
+}
+
+.main-sec .content .title span {
+    position: absolute;
+    color: white;
+    font-family: gag;
+    font-size: 7em;
+    top: 80px;
+    left: 240px;
+}
+
+.main-sec .content p {
+    margin-top: 100px;
+    color: white;
+    word-wrap: break-word;
+    /* Wrap long words to prevent overflow */
+    font-size: 25px;
+    font-family: gag;
+}
+
+.main-sec .desc {
+    width: 67em;
+}
+
+
+.main-sec .content button {
+    background-color: #FF6300;
+    width: 200px;
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: 2s;
+}
+
+
+.main-sec .content button:hover {
+
+    background-color: #b44805;
+    transform: scale(0.95);
+
+
+
+}
+
+.main-sec .shape {
+    position: relative;
+    animation: fade 3s ease-in-out forwards;
+
+}
+
+
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+
+}
+
+
+
+.main-sec .shape .soliman {
+
+    position: absolute;
+    top: -105px;
+    right: 115px;
+    width: 24em;
+    height: 30em;
+
+}
+
+/*End  Home section */
+
+
+
+.contact{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.contact .content{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.contact .contact-item h1{
+    text-decoration: none;
+}
+
+.contact .contact-item .form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.contact .contact-item .form .inp input{
+    padding: 10px;
+    height: 50px;
+    width: 500px;
+    color: wheat;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.contact-btn input{
+    background-color: #FF6300;
+    padding: 0 15px 0 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    margin-left: 40px;
+}
+
+
+.contact .logo span {
+    font-weight: bold;
+    font-family: 'gag';
+    margin-right: 3px;
+}
+
+.contact .logo h1 {
+    font-weight: bold;
+    font-family: 'gag';
+    letter-spacing: 3px;
+    margin-top: 100px;
+
+}
+
+.contact .sections h2,
+.contact .sections button {
+    padding-left: 18px;
+    padding-right: 18px;
+    color: white;
+    font-size: 25px;
+}
+
+
+
+.contact .logo span {
+    background-color: #FF6300;
+    padding: 0 15px 0 15px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+
+.sections-head{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    
+}
+
+.sections-head a{
+    text-decoration: none;
+    padding: 20px;
+    font-family: 'gag';
+    font-size: 20px;
+    color: white;
+}
+
+
+
+@media screen and (max-width:450px) {
+
+
+    .sections-head{
+        display: none;
+    }
+
+
+    .contact .contact-item .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .contact .contact-item .form .inp input{
+        padding: 10px;
+        height: 50px;
+        width: 300px;
+        color: rgb(0, 0, 0);
+        background-color: white;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    
+    .contact-btn input{
+        background-color: #FF6300;
+        padding: 0 15px 0 15px;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin-top: 30px;
+        height: 50px;
+        margin-left: 0;
+    }
+    
+
+    .contact .logo h1 {
+        font-weight: bold;
+        font-family: 'gag';
+        letter-spacing: 3px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    
+    }
+    
+
+    /* Home section */
+
+
+    * {
+        box-sizing: border-box;
+    }
+    
+
+    
+    .home0 {
+        height: calc(100vh - 10px); /* Adjusted for the total margin */
+        /* margin-top: 10px; */
+        margin-bottom: 50px;
+        /* padding-right: 55px; */
+        /* padding-left: 50px; */
+        width: 100%;
+        overflow-x: hidden; /* Ensures no horizontal scroll within the section */
+    }
+
+
+    .home .main-sec {
+        display: flex;
+        justify-content: space-evenly;
+        position: relative;
+        margin-left: 10px;
+
+    }
+
+    .main-sec .content .hi {
+        font-size: 15px;
+    }
+
+    .main-sec .content-home {
+        position: absolute;
+        z-index: 999;
+        left: 120px;
+        /* top: -30px; */
+
+    }
+
+
+    .main-sec .content h3 {
+        font-size: 23px;
+    }
+
+
+    .main-sec .content .title h1 {
+        font-size: 3em;
+    }
+
+    .main-sec .content .title span {
+        position: absolute;
+        font-size: 3em;
+        top: 50px;
+        left: 75px;
+    }
+
+    .main-sec .content p {
+        margin-top: 100px;
+        font-size: 16px;
+    }
+
+    .main-sec .desc {
+        width: 36em;
+        font-size: 10px;
+    }
+
+
+
+    .main-sec .shape {
+        margin-left: 250px;
+    }
+
+    .main-sec .shape .shape1 {
+        position: relative;
+        width: 25em;
+        transform: rotate(-90deg);
+    }
+
+
+    .main-sec .shape .soliman {
+        position: absolute;
+        top: -195px;
+        right: 92px;
+        width: 14em;
+        height: 30em;
+
+    }
+
+    /*End  Home section */
+}
+
+
+
+
+
+
+@media screen and (max-width:1231px) {
+    ul li {
+
+        display: none;
+
+    }
+
+    .menu {
+        float: right;
+        padding-top: 10px;
+        display: block;
+    }
+}
+
+
+
+
+
+
+
