@@ -431,12 +431,13 @@ a:hover {
     
 
     
+    
     .home0 {
         height: calc(100vh - 10px); /* Adjusted for the total margin */
         margin-top: 55px;
         margin-bottom: 50px;
         /* padding-right: 55px; */
-        padding-left: 40px;
+        padding-left: 53px;
         width: 100%;
         overflow-x: hidden; /* Ensures no horizontal scroll within the section */
     }
